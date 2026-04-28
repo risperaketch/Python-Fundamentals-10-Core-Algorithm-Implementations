@@ -192,5 +192,5 @@ No other dependencies. All 10 functions use only built-in Python.
 ## Author
 
 **Aketch Adhiambo Okoth**  
-MS Business Analytics — Montclair State University (GPA 3.8)  
+MS Business Analytics — Montclair State University   
 [LinkedIn](https://linkedin.com/in/your-profile) · [Portfolio](https://your-portfolio-url.com)
