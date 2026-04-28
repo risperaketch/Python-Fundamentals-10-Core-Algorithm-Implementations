@@ -1,6 +1,6 @@
 # Python Fundamentals — 10 Core Algorithm Implementations
 
-> **10 Python utility functions built from scratch using core language features only — no external libraries. Covers number theory, string analysis, list processing, data cleaning, and statistics. Score: 100 / 100.**
+> 10 Python utility functions built from scratch using core language features only — no external libraries. Covers number theory, string analysis, list processing, data cleaning, and statistics.
 
 ---
 
