@@ -37,8 +37,8 @@ is_even(4)   # True
 is_even(7)   # False
 is_even(0)   # True  (zero is even by definition)
 ```
+<img width="1198" height="319" alt="image" src="https://github.com/user-attachments/assets/20b3b566-b392-446e-9004-b9e0be73264e" />
 
----
 
 ### `sum_even(list_nums)` → `int`
 Sums all even integers in a list. Collects even values into a buffer list, then returns `sum()`. Returns `0` if no even numbers are present.
@@ -47,6 +47,7 @@ Sums all even integers in a list. Collects even values into a buffer list, then 
 sum_even([2, 3, 5, 8])              # 10  (2 + 8)
 sum_even([5, 4, 3, 2, 10, 8, 25, 30])  # 54  (4 + 2 + 10 + 8 + 30)
 ```
+<img width="978" height="373" alt="image" src="https://github.com/user-attachments/assets/829e55ee-1faf-4c85-854f-2128d485be1f" />
 
 ---
 
@@ -57,6 +58,7 @@ Finds the largest odd integer in a mixed list of integers and strings. Uses `isi
 get_largest_odd([3, 101, 'NJ', 5, 8, 10, 'marina'])  # 101
 get_largest_odd([2, 4, 'hello'])                       # None
 ```
+<img width="1088" height="373" alt="image" src="https://github.com/user-attachments/assets/b436ab25-6084-4634-ba51-d3728baec1b2" />
 
 ---
 
@@ -67,6 +69,7 @@ Counts vowels (`aeiouAEIOU`) in each string and returns a dictionary mapping eac
 get_vowels(['apple', 'MONTCLAIR'])   # {'apple': 2, 'MONTCLAIR': 3}
 get_vowels(['Taylor Swift', 'Hayat'])  # {'Taylor Swift': 3, 'Hayat': 2}
 ```
+<img width="1088" height="373" alt="image" src="https://github.com/user-attachments/assets/b436ab25-6084-4634-ba51-d3728baec1b2" />
 
 ---
 
@@ -76,6 +79,7 @@ Filters a list to return only strings containing the lowercase letter `'a'`. Cas
 ```python
 get_words_with_a(['Taylor', 'Swift', 'Hayat', 'Beyonce'])  # ['Taylor', 'Hayat']
 ```
+<img width="1088" height="429" alt="image" src="https://github.com/user-attachments/assets/6b5d24cc-3b8a-4eb7-ac6c-a7d8bc4adbc9" />
 
 ---
 
@@ -86,6 +90,7 @@ Removes duplicate items from a mixed list of numbers and strings. Strings are no
 remove_dups(['new jersey', 'apple', 6, 9, 'Decision', 'New jersey', 6, 'decision'])
 # ['new jersey', 'apple', 6, 9, 'decision']
 ```
+<img width="1088" height="319" alt="image" src="https://github.com/user-attachments/assets/26080ecc-8386-4bfb-ae92-a0f8317182aa" />
 
 ---
 
@@ -97,6 +102,7 @@ is_prime(11)   # True
 is_prime(49)   # False  (49 = 7 × 7)
 is_prime(1)    # False  (1 is not prime by definition)
 ```
+<img width="1308" height="394" alt="image" src="https://github.com/user-attachments/assets/bd9bdc0c-988b-4d9f-98ca-7cbddbb6d56f" />
 
 ---
 
@@ -108,6 +114,7 @@ get_factorial(5)   # 120   (5 × 4 × 3 × 2 × 1)
 get_factorial(6)   # 720
 get_factorial(0)   # 1
 ```
+<img width="1198" height="429" alt="image" src="https://github.com/user-attachments/assets/7fb5c903-1711-44b7-b9bf-205c12174a91" />
 
 ---
 
@@ -119,6 +126,7 @@ reverse_string('marina')     # 'aniram'
 reverse_string('I love NYC') # 'CYN evol I'
 reverse_string('racecar')    # 'racecar'  (palindrome)
 ```
+<img width="1097" height="429" alt="image" src="https://github.com/user-attachments/assets/8bdf92b0-f907-448d-9b27-5a66001e67cb" />
 
 ---
 
@@ -130,6 +138,7 @@ get_mode([1, 100, 3, 5, 3, 4, 4, 3])   # 3  (appears 3×)
 get_mode([1, 2, 3, 4, 5])               # None  (all unique)
 get_mode([1, 1, 2, 2])                  # None  (tie)
 ```
+<img width="1088" height="429" alt="image" src="https://github.com/user-attachments/assets/77ebd0aa-3315-42fc-9581-43a925d27147" />
 
 ---
 
@@ -149,6 +158,8 @@ Ten charts are saved as PNG files during notebook execution:
 | `f8_factorial.png` | `get_factorial` | Bar chart of 0! through 10! showing exponential growth |
 | `f9_reverse_string.png` | `reverse_string` | Table: original · reversed · palindrome check |
 | `f10_get_mode.png` | `get_mode` | Frequency chart with mode highlighted in red |
+
+<img width="1418" height="319" alt="image" src="https://github.com/user-attachments/assets/6fa64569-8b06-45af-9c92-7f0fbf4ee329" />
 
 ---
 
